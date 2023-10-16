@@ -12,10 +12,10 @@ const PORT = process.env.PORT || 3000;
 
 const swaggerOptions = {
   swaggerDefinition: {
-    openapi: '3.1.9',
+    openapi: '3.0.1',
     info: {
       title: 'API Movie',
-      version: '1.0.0',
+      version: '0.1.0',
       description: 'Informasi API Movie',
       servers: ['http://localhost:3000'],
     },
